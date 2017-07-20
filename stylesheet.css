@@ -18,16 +18,34 @@
 }
 
 .box1,.box2,.box3{
-  width:30.3%;
-  background-color: #99b3e6;
+   width:30.3%;
+   background-color: #99b3e6;
     width: 350px;
-    border: 5px solid ;
+    border: 3px solid ;
     padding: 25px;
     margin: 25px;
     text-align: center;
 }
+.box4,.box5{
+    width:50.0%;
+    background-color: #99b3e6;
+    width: 500px;
+    padding: 25px;
+    margin-left: 55px;
+    text-align: center;
+    margin-bottom:20px;
+}
 
-.three{
+.box6,.box7{
+    width:50.0%;
+    background-color: #99b3e6;
+    width: 500px;
+    padding: 25px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.three,.four,.five{
   display:flex;
   flex-direction:row;
 }
