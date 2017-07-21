@@ -1,17 +1,30 @@
 .first{
-  color:black;
+  color:white;
   text-align: center;
   font-size:25px;
-  margin:20px;
+  padding: 30px;
+  background-color: black;
+  text-shadow: 4px 3px blue;
+}
+
+body{
+  background:#006666;
 }
 
 .top{
+  top:1px;
   display: flex;
   flex-direction: row;
   padding:24px;
-  border:1px solid black;
+
   text-align: center;
   background:#99b3e6;
+  border-radius: 30px;
+}
+
+h3{
+ color:#0040ff;
+ font-size: 20px;
 }
 
 }
@@ -27,10 +40,11 @@
     padding: 25px;
     margin: 25px;
     text-align: center;
+    border-radius: 40px;
 }
 .box4,.box5,.box6,.box7,.box8{
     width:50.0%;
-    background-color: #99b3e6;
+    background-color:#8c8cd9;
     width: 500px;
     padding: 25px;
     margin-left: 55px;
@@ -38,26 +52,28 @@
     margin-bottom:20px;
 }
 
-.box6,.box7{
-    width:50.0%;
-    background-color: #99b3e6;
-    width: 500px;
-    padding: 25px;
-    margin-left: 55px;
-    text-align: center;
-}
-
-.three,.four,.five,.six{
+.three,.four,.five  {
   display:flex;
   flex-direction:row;
 }
+.three{
+    font-family: 'Stardos Stencil', cursive;
 
+}
 .cote{
   margin-left: 30px;
   margin-right: 230px;
+
 }
 
 .cotes{
   margin-left: 230px;
   margin-right:30px;
+
+}
+
+.six{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
