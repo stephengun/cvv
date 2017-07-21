@@ -6,6 +6,8 @@
 }
 
 .top{
+  display: flex;
+  flex-direction: row;
   padding:24px;
   border:1px solid black;
   text-align: center;
@@ -26,7 +28,7 @@
     margin: 25px;
     text-align: center;
 }
-.box4,.box5{
+.box4,.box5,.box6,.box7,.box8{
     width:50.0%;
     background-color: #99b3e6;
     width: 500px;
@@ -45,7 +47,17 @@
     text-align: center;
 }
 
-.three,.four,.five{
+.three,.four,.five,.six{
   display:flex;
   flex-direction:row;
+}
+
+.cote{
+  margin-left: 30px;
+  margin-right: 230px;
+}
+
+.cotes{
+  margin-left: 230px;
+  margin-right:30px;
 }
