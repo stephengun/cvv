@@ -52,6 +52,18 @@ h3{
     margin-bottom:20px;
 }
 
+.box1{
+  transform: rotate(-3deg);
+}
+
+.box2{
+  transform: rotate(3deg);
+}
+
+.box3{
+  transform: rotate(-3deg);
+}
+
 .three,.four,.five  {
   display:flex;
   flex-direction:row;
@@ -59,7 +71,9 @@ h3{
 .three{
     font-family: 'Stardos Stencil', cursive;
 
+
 }
+
 .cote{
   margin-left: 30px;
   margin-right: 230px;
@@ -76,4 +90,12 @@ h3{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+footer{
+  text-align: right;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  padding-right: 20px;
 }
